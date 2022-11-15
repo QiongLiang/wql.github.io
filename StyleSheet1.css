@@ -10,7 +10,7 @@
 }
 
 #center{
-    width:1000px;
+    width:1200px;
     margin:0 auto;
 }
 
@@ -44,7 +44,7 @@
 }
 
 #content{
-    width:1200px;
+    width:1000px;
     /*如果大盒子不给高度，里面的元素浮动会出现塌陷*/
     height:450px;
     margin:20px auto;
