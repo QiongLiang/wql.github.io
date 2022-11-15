@@ -1,88 +1,82 @@
 ﻿*{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
-#top{
-    height:60px;
-    background:#ff0000;
-
+#top {
+    height: 60px;
+    background: #ff0000;
 }
 
-#center{
-    width:1200px;
-    margin:0 auto;
+#center {
+    width: 800px;
+    margin: 0 auto;
 }
 
-#center ul li{
-    /*去掉小黑点*/
-    list-style:none;
-    float:left;
-    line-height:60px;
-    padding:0 15px;
-}
-#center ul li a{
-    color:#ffffff;
-    text-decoration:none;
-}
+    #center ul li {
+        /*去掉小黑点*/
+        list-style: none;
+        float: left;
+        line-height: 60px;
+        padding: 0 15px;
+    }
+
+        #center ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
 
 /*广告位*/
-#banner{
-    height:700px;
-    background:url(./images1/banner.jpg)no-repeat
-    center #fe5045;
+#banner {
+    height: 700px;
+    background: url(./images1/banner.jpg)no-repeat center #fe5045;
 }
 
-#bannerTitle{
-    border:4px solid #ffffff;
-    padding:10px 0px 10px 20px;
-    color:#ffffff;
-    font-weight:bolder;
-    width:200px;
-    border-radius:20px;
-    margin-left:-20px;
+#bannerTitle {
+    border: 4px solid #ffffff;
+    padding: 10px 0px 10px 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: -20px;
 }
 
-#content{
-    width:1000px;
+#content {
+    width: 1000px;
     /*如果大盒子不给高度，里面的元素浮动会出现塌陷*/
-    height:450px;
-    margin:20px auto;
+    height: 650px;
+    margin: 20px auto;
 }
-.box{
+
+.box {
     /*文字居中*/
-    text-align:center;
-    float:left;
-    margin-right:15px; 
+    text-align: center;
+    float: left;
+    margin-right: 15px;
 }
 
 /*图片logo区*/
-#logo{
-    width:1000px;
-    margin:10px auto;
-
+#logo {
+    width: 1200px;
+    margin: 20px auto;
 }
 
 /*页脚区域*/
-#fotter{
-    text-align:center;
-    margin:10px auto;
+#fotter {
+    text-align: center;
+    margin: 10px auto;
 }
 
-#fotter ul li{
-    margin:200px auto;
-    list-style:none;
-    display:inline-block;
-    border-right:2px solid #808080;
-    padding:0 6px;
-}
+    #fotter ul li {
+        margin: 30px auto;
+        list-style: none;
+        display: inline-block;
+        border-right: 2px solid #808080;
+        padding: 0 10px;
+    }
 
-#fotter ul li a{
-    text-decoration:none;
-    color:#000000;
-}
-
-
-
-
-
+        #fotter ul li a {
+            text-decoration: none;
+            color: #000000;
+        }
